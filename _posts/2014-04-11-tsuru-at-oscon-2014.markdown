@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+title: tsuru at OSCON 2014
+author:
+  display_name: Francisco Souza
+  login: francisco
+  email: fss@corp.globo.com
+  url: http://f.souza.cc
+author_login: francisco
+author_email: fss@corp.globo.com
+author_url: http://f.souza.cc
+excerpt: "Good news: we are going to talk about tsuru at <a href=\"http://www.oscon.com/oscon2014\"
+  title=\"OSCON 2014\">OSCON 2014</a>! The talk, entitled <a href=\"http://www.oscon.com/oscon2014/public/schedule/detail/34093\"
+  title=\"Tsuru: Open Source Cloud Application Platform\">\"Tsuru: Open Source Cloud
+  Application Platform\"</a>, will cover the history, evolution and architecture of
+  tsuru, including its context and  adoption at <a href=\"http://globo.com\" title=\"Globo.com\">Globo.com</a>.\r\n<a
+  href=\"http://blog.tsuru.io/2014/04/04/running-tsuru-in-production-scaling-and-segregating-docker-containers/\"
+  title=\"Running tsuru in production: scaling and segregating Docker containers\"></a>\r\n\r\nThe
+  goal of the presentation is to introduce tsuru and its components, demonstrating
+  how they work together and diving as deep as possible into their architectures.\r\n\r\nThe
+  audience will have the opportunity to better know what's behind tsuru, for example:"
+wordpress_id: 57
+wordpress_url: http://blog.tsuru.io/?p=57
+date: '2014-04-11 17:16:04 -0300'
+date_gmt: '2014-04-11 20:16:04 -0300'
+categories:
+- Talks
+tags:
+- docker
+- talks
+- oscon
+- go
+- golang
+comments:
+- id: 3
+  author: Speaking at OSCON 2014 | Planeta Globo.com
+  author_email: ''
+  author_url: http://planeta-globo.com/2014/04/12/speaking-at-oscon-2014/
+  date: '2014-04-14 03:59:51 -0300'
+  date_gmt: '2014-04-14 06:59:51 -0300'
+  content: "[&#8230;] This is a very short post, just to tell everybody that this
+    year, I will have the opportunity to speak at OSCON 2014. I&#8217;m speaking about
+    tsuru, and check more details of the talk in the tsuru blog. [&#8230;]"
+---
+<p>Good news: we are going to talk about tsuru at <a href="http://www.oscon.com/oscon2014" title="OSCON 2014">OSCON 2014</a>! The talk, entitled <a href="http://www.oscon.com/oscon2014/public/schedule/detail/34093" title="Tsuru: Open Source Cloud Application Platform">"Tsuru: Open Source Cloud Application Platform"</a>, will cover the history, evolution and architecture of tsuru, including its context and  adoption at <a href="http://globo.com" title="Globo.com">Globo.com</a>.<br />
+<a href="http://blog.tsuru.io/2014/04/04/running-tsuru-in-production-scaling-and-segregating-docker-containers/" title="Running tsuru in production: scaling and segregating Docker containers"></a></p>
+<p>The goal of the presentation is to introduce tsuru and its components, demonstrating how they work together and diving as deep as possible into their architectures.</p>
+<p>The audience will have the opportunity to better know what's behind tsuru, for example:<a id="more"></a><a id="more-57"></a></p>
+<ol>
+<li>how we use the <a href="http://golang.org" title="Go">Go</a> programming language to build tsuru</li>
+<li>how to provide and use <a href="http://docs.tsuru.io/en/latest/apps/client/services.html">services</a> in tsuru applications</li>
+<li>how the architecture looks like</li>
+<li>how the production environment looks like with <a href="http://juju.ubuntu.com" title="Juju">Juju</a> and <a href="http://docker.io" title="Docker">Docker</a></li>
+<li>how to run tsuru in your own infrastructure</li>
+</ol>
+<p>We will cover each of these topics in future posts in this blog (there's already a post about <a href="http://blog.tsuru.io/2014/04/04/running-tsuru-in-production-scaling-and-segregating-docker-containers/" title="Running tsuru in production: scaling and segregating Docker containers">Docker in production</a>).</p>
+<p>See you at OSCON 2014!</p>
