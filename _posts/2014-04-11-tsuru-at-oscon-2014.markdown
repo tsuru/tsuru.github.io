@@ -23,6 +23,8 @@ excerpt: "Good news: we are going to talk about tsuru at <a href=\"http://www.os
   audience will have the opportunity to better know what's behind tsuru, for example:"
 wordpress_id: 57
 wordpress_url: http://blog.tsuru.io/?p=57
+redirect_from:
+  - /2014/04/11/tsuru-at-oscon-2014/
 date: '2014-04-11 17:16:04 -0300'
 date_gmt: '2014-04-11 20:16:04 -0300'
 categories:

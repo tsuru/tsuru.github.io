@@ -1,6 +1,6 @@
 # Site settings
 title: tsuru blog | Open Source cloud application platform
-email: 
+email:
 description:
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
@@ -9,3 +9,5 @@ github_username:  tsuru
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-redirect-from

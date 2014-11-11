@@ -13,6 +13,8 @@ author_email: andrewsmedina@gmail.com
 author_url: http://andrewsmedina.com
 wordpress_id: 116
 wordpress_url: http://blog.tsuru.io/?p=116
+redirect_from:
+  - /2014/06/27/tsuru-server-0-5-0-released/
 date: '2014-06-27 18:13:11 -0300'
 date_gmt: '2014-06-27 21:13:11 -0300'
 categories:

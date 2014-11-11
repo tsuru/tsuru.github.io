@@ -13,6 +13,8 @@ author_email: fss@corp.globo.com
 author_url: http://f.souza.cc
 wordpress_id: 120
 wordpress_url: http://blog.tsuru.io/?p=120
+redirect_from:
+  - /2014/07/02/tsuru-server-0-5-1-is-out/
 date: '2014-07-02 16:32:01 -0300'
 date_gmt: '2014-07-02 19:32:01 -0300'
 categories:

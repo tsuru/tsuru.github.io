@@ -20,6 +20,8 @@ excerpt: tsuru is an open source PaaS, born in early 2012 at <a title="Globo.com
   href="http://docker.io">Docker</a> was born.
 wordpress_id: 21
 wordpress_url: http://blog.tsuru.io/?p=21
+redirect_from:
+  - /2014/04/04/running-tsuru-in-production-scaling-and-segregating-docker-containers/
 date: '2014-04-04 17:49:23 -0300'
 date_gmt: '2014-04-04 20:49:23 -0300'
 categories:

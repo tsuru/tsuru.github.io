@@ -25,6 +25,8 @@ excerpt: "tsuru server 0.6.0, along with <a href=\"http://docs.tsuru.io/en/lates
   cluster."
 wordpress_id: 130
 wordpress_url: http://blog.tsuru.io/?p=130
+redirect_from:
+  - /2014/08/06/a-new-release-of-tsuru-server-is-out/
 date: '2014-08-06 17:06:37 -0300'
 date_gmt: '2014-08-06 20:06:37 -0300'
 categories:
