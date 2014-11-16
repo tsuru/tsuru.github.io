@@ -7,11 +7,8 @@ author:
   display_name: Andrews Medina
   email: andrewsmedina@gmail.com
   url: http://andrewsmedina.com
-author_login: andrewsmedina
-author_email: andrewsmedina@gmail.com
-author_url: http://andrewsmedina.com
-date: '2014-11-14 17:00:00 -0300'
-date_gmt: '2014-11-14 17:00:00 -0300'
+date: '2014-11-16 13:50:00 -0200'
+date_gmt: '2014-11-16 15:50:00'
 categories:
 - Talks
 tags:
@@ -30,5 +27,5 @@ The audience will have the opportunity to better know what's behind tsuru, for e
 * how to run tsuru in your own infrastructure
 * how to provide and use services in tsuru applications
 * the integration between tsuru and Apache CloudStack
-		    
+
 See you in Budapest!
