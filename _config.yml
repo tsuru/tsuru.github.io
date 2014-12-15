@@ -11,3 +11,5 @@ github_username:  tsuru
 markdown: kramdown
 gems:
   - jekyll-redirect-from
+kramdown:
+  input: GFM
