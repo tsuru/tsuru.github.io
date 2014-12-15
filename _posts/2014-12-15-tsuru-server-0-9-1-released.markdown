@@ -23,7 +23,7 @@ In the 0.9.0 and 0.9.1 a lot of features are added. The features that worth high
 * TSURU_SERVICES environment variable: this environment variable lists all service instances that the application is bound. This enables binding an application to multiple instances of a service. [For more details, check the TSURU_SERVICES documentation](http://docs.tsuru.io/en/master/services/tsuru-services-env-var.html).
 * Improvements to EC2 IaaS provider, it now accepts user-data config through iaas:ec2:user-data and a timeout for machine creation with iaas:ec2:wait-timeout config.
 * A new debug route is available in the API: /debug/goroutines. It can only be hit with admin credentials and will dump a trace of each running goroutine.
-* The unit flow was changed to use correct status on build. The unused status (unreachable and down) was removed. And `Created` status was added. Now the unit flow is:
+* The [unit flow](http://docs.tsuru.io/en/master/using/unit-states.html) was changed to use correct status on build. The unused status (unreachable and down) was removed. And `Created` status was added. Now the unit flow is:
 
 	+----------+                           Start          +---------+
 	| Building |                   +---------------------+| Stopped |
