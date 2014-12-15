@@ -25,25 +25,27 @@ In the 0.9.0 and 0.9.1 a lot of features are added. The features that worth high
 * A new debug route is available in the API: /debug/goroutines. It can only be hit with admin credentials and will dump a trace of each running goroutine.
 * The [unit flow](http://docs.tsuru.io/en/master/using/unit-states.html) was changed to use correct status on build. The unused status (unreachable and down) was removed. And `Created` status was added. Now the unit flow is:
 
-	+----------+                           Start          +---------+
-	| Building |                   +---------------------+| Stopped |
-	+----------+                   |                      +---------+
-	      ^                        |                           ^
-	      |                        |                           |
-	 deploy unit                   |                         Stop
-	      |                        |                           |
-	      +                        v       RegisterUnit        +
-	 +---------+  app unit   +----------+  SetUnitStatus  +---------+
-	 | Created | +---------> | Starting | +-------------> | Started |
-	 +---------+             +----------+                 +---------+
-				       +                         ^ +
-				       |                         | |
-				 SetUnitStatus                   | |
-				       |                         | |
-				       v                         | |
-				   +-------+     SetUnitStatus   | |
-				   | Error | +-------------------+ |
-				   +-------+ <---------------------+
+```
++----------+                           Start          +---------+
+| Building |                   +---------------------+| Stopped |
++----------+                   |                      +---------+
+      ^                        |                           ^
+      |                        |                           |
+ deploy unit                   |                         Stop
+      |                        |                           |
+      +                        v       RegisterUnit        +
+ +---------+  app unit   +----------+  SetUnitStatus  +---------+
+ | Created | +---------> | Starting | +-------------> | Started |
+ +---------+             +----------+                 +---------+
+                               +                         ^ +
+                               |                         | |
+                         SetUnitStatus                   | |
+                               |                         | |
+                               v                         | |
+                           +-------+     SetUnitStatus   | |
+                           | Error | +-------------------+ |
+                           +-------+ <---------------------+
+```
 
 ##Backward incompatible changes
 
