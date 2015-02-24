@@ -116,7 +116,7 @@ body {
 
 a {
 	color: #ca3c08;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:visited {
