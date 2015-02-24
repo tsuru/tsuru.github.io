@@ -47,12 +47,14 @@ In the 0.9.0 and 0.9.1 a lot of features are added. The features that worth high
                            +-------+ <---------------------+
 ```
 
-##Backward incompatible changes
+Backward incompatible changes
+=============================
 
 * Service API flow: the service API flow has changed, splitting the bind process in two steps: binding/unbinding the application and binding/unbinding the units. The old flow is now deprecated
 
 You can see the complete list of features in the release notes of tsuru server [0.9.0](http://docs.tsuru.io/en/master/releases/tsr/0.9.0.html) and [0.9.1](http://docs.tsuru.io/en/master/releases/tsr/0.9.1.html).
 
-##Grab it today!
+Grab it today!
+==============
 
 You can install or upgrade tsuru server using our [PPA](http://docs.tsuru.io/en/master/installing/api.html#adding-repositories) or building it from source.

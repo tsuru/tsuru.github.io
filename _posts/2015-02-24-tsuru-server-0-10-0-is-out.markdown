@@ -33,11 +33,13 @@ Some features worth highlighting are listed below:
   - Thanks to Samuel ROZE, the PHP platform support multiple interpretors (FPM and mod_php) and frontends (Apache or nginx).
   - The Ruby platform supports switching between Ruby versions by specifying the desired version in the ``Gemfile`` or ``.ruby-version`` file.
 
-##Backward incompatible changes
+Backward incompatible changes
+=============================
 
 * Drop support for Docker images that do not run [tsuru-unit-agent](https://github.com/tsuru/tsuru-unit-agent). Starting on tsuru-server 0.10.0, tsuru-unit-agent is no longer optional.
 
-##Contributors
+Contributors
+============
 
 Besides the core team, this release was also powered by external contributors.  And we want to thank them for helping getting tsuru server 0.10.0 out. Here is the list of contributors that helped in this version:
 
@@ -48,6 +50,7 @@ Besides the core team, this release was also powered by external contributors.  
 * Rogério Yokomizo
 * Samuel ROZE
 
-##Grab it today!
+Grab it today!
+==============
 
 You can install or upgrade tsuru server using our [PPA](http://docs.tsuru.io/en/latest/installing/api.html#adding-repositories) or building it from source.
