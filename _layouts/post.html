@@ -5,13 +5,13 @@ comments: true
 
 <article class="post type-post status-publish format-standard hentry category-release">
     <header class="entry-header">
-    
+
     <h1 class="entry-title">{{ page.title }}</h1>
-    
+
     <div class="entry-meta">
         <span class="date"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark"><time class="entry-date" datetime="{{ post.date }}">{{ page.date | date: "%b %-d, %Y" }}</time></a></span>
 
-        <span class="author vcard"> • {{ page.author['display_name'] }}</span>
+        <span class="author vcard"><a class="url fn n" href="{{ page.author['url'] }}" rel="author">{{ page.author['display_name'] }}</a></span>
    </div>
     </header>
 
@@ -47,5 +47,5 @@ comments: true
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
+
 {% endif %}

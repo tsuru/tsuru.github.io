@@ -15,7 +15,7 @@ layout: default
                     <div class="entry-meta">
                         <span class="date"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark"><time class="entry-date" datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></a></span>
 
-                        <span class="author vcard"><a class="url fn n" rel="author">{{ post.author['display_name'] }}</a></span>
+			<span class="author vcard"><a class="url fn n" href="{{ post.author['url'] }}" rel="author">{{ post.author['display_name'] }}</a></span>
                     </div>
                 </header>
                 <div class="entry-content">
