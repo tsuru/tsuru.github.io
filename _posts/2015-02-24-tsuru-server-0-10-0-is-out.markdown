@@ -5,12 +5,7 @@ published: true
 title: tsuru server 0.10.0 is out!
 author:
   display_name: Francisco Souza
-  login: francisco
-  email: fss@corp.globo.com
-  url: http://f.souza.cc
-author_login: francisco
-author_email: fss@corp.globo.com
-author_url: http://f.souza.cc
+  url: https://github.com/fsouza
 date: '2015-02-24 17:55:00 -0300'
 date_gmt: '2015-02-24 14:55:00'
 categories:

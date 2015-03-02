@@ -5,8 +5,7 @@ published: true
 title: tsuru at CloudStack Collaboration Conference Europe
 author:
   display_name: Andrews Medina
-  email: andrewsmedina@gmail.com
-  url: http://andrewsmedina.com
+  url: https://github.com/andrewsmedina
 date: '2014-11-16 13:50:00 -0200'
 date_gmt: '2014-11-16 15:50:00'
 categories:

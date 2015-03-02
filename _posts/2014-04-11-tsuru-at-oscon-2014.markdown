@@ -5,24 +5,7 @@ published: true
 title: tsuru at OSCON 2014
 author:
   display_name: Francisco Souza
-  login: francisco
-  email: fss@corp.globo.com
-  url: http://f.souza.cc
-author_login: francisco
-author_email: fss@corp.globo.com
-author_url: http://f.souza.cc
-excerpt: "Good news: we are going to talk about tsuru at <a href=\"http://www.oscon.com/oscon2014\"
-  title=\"OSCON 2014\">OSCON 2014</a>! The talk, entitled <a href=\"http://www.oscon.com/oscon2014/public/schedule/detail/34093\"
-  title=\"Tsuru: Open Source Cloud Application Platform\">\"Tsuru: Open Source Cloud
-  Application Platform\"</a>, will cover the history, evolution and architecture of
-  tsuru, including its context and  adoption at <a href=\"http://globo.com\" title=\"Globo.com\">Globo.com</a>.\r\n<a
-  href=\"http://blog.tsuru.io/2014/04/04/running-tsuru-in-production-scaling-and-segregating-docker-containers/\"
-  title=\"Running tsuru in production: scaling and segregating Docker containers\"></a>\r\n\r\nThe
-  goal of the presentation is to introduce tsuru and its components, demonstrating
-  how they work together and diving as deep as possible into their architectures.\r\n\r\nThe
-  audience will have the opportunity to better know what's behind tsuru, for example:"
-wordpress_id: 57
-wordpress_url: http://blog.tsuru.io/?p=57
+  url: https://github.com/fsouza
 redirect_from:
   - /2014/04/11/tsuru-at-oscon-2014/
 date: '2014-04-11 17:16:04 -0300'

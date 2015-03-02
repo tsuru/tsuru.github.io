@@ -5,8 +5,7 @@ published: true
 title: tsuru server 0.9.1 is out!
 author:
   display_name: Andrews Medina
-  email: andrewsmedina@gmail.com
-  url: http://andrewsmedina.com
+  url: https://github.com/andrewsmedina
 date: '2014-12-15 18:30:00 -0200'
 date_gmt: '2014-12-05 20:30:00'
 categories:

@@ -5,21 +5,7 @@ published: true
 title: 'Running tsuru in production: scaling and segregating Docker containers'
 author:
   display_name: Francisco Souza
-  login: francisco
-  email: fss@corp.globo.com
-  url: http://f.souza.cc
-author_login: francisco
-author_email: fss@corp.globo.com
-author_url: http://f.souza.cc
-excerpt: tsuru is an open source PaaS, born in early 2012 at <a title="Globo.com"
-  href="http://www.globo.com" target="_blank">Globo.com</a>, a brazilian media company.
-  At a first moment, tsuru hit production using <a title="Juju" href="http://juju.ubuntu.com">Juju</a>
-  to provision virtual machines on-demmand. Juju is an amazing tool, but provisioning
-  virtual machines on-demmand is slow. Later, we started integrating with <a title="LXC"
-  href="https://linuxcontainers.org/">Linux Containers (lxc)</a>, and <a title="Docker"
-  href="http://docker.io">Docker</a> was born.
-wordpress_id: 21
-wordpress_url: http://blog.tsuru.io/?p=21
+  url: https://github.com/fsouza
 redirect_from:
   - /2014/04/04/running-tsuru-in-production-scaling-and-segregating-docker-containers/
 date: '2014-04-04 17:49:23 -0300'

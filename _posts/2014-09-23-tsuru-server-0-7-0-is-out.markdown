@@ -5,14 +5,7 @@ published: true
 title: Tsuru server 0.7.0 is out!!
 author:
   display_name: Tarsis Azevedo
-  login: tarsis
-  email: tarsis@corp.globo.com
-  url: http://tarsisazevedo.com
-author_login: tarsis
-author_email: tarsis@corp.globo.com
-author_url: http://tarsisazevedo.com
-wordpress_id: 153
-wordpress_url: http://blog.tsuru.io/?p=153
+  url: https://github.com/tarsisazevedo
 redirect_from:
   - /2014/09/23/tsuru-server-0-7-0-is-out/
 date: '2014-09-23 11:04:32 -0300'

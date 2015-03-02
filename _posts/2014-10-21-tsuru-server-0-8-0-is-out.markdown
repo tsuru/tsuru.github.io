@@ -5,14 +5,7 @@ published: true
 title: tsuru server 0.8.0 is out!
 author:
   display_name: Francisco Souza
-  login: francisco
-  email: fss@corp.globo.com
-  url: http://f.souza.cc
-author_login: francisco
-author_email: fss@corp.globo.com
-author_url: http://f.souza.cc
-wordpress_id: 181
-wordpress_url: http://blog.tsuru.io/?p=181
+  url: https://github.com/fsouza
 redirect_from:
   - /2014/10/21/tsuru-server-0-8-0-is-out/
 date: '2014-10-21 15:10:09 -0200'

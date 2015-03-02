@@ -5,26 +5,7 @@ published: true
 title: A new release of tsuru server is out!
 author:
   display_name: Francisco Souza
-  login: francisco
-  email: fss@corp.globo.com
-  url: http://f.souza.cc
-author_login: francisco
-author_email: fss@corp.globo.com
-author_url: http://f.souza.cc
-excerpt: "tsuru server 0.6.0, along with <a href=\"http://docs.tsuru.io/en/stable/releases/tsuru/0.11.0.html\"
-  title=\"tsuru 0.11.0\">tsuru client 0.11.0</a> and <a href=\"http://docs.tsuru.io/en/stable/releases/tsuru-admin/0.5.0.html\"
-  title=\"tsuru-admin 0.5.0\">tsuru-admin 0.5.0</a>, is out today!\r\n\r\n<h2>What
-  is tsuru?</h2>\r\ntsuru is an extensible and open source Platform as a Service software.
-  <strong>tsr</strong> is the binary of the tsuru server api, while <strong>tsuru</strong>
-  and <strong>tsuru-admin</strong> are clients of the server, used by application
-  developers and cloud administrators, respectively.\r\n\r\n<h2>What’s new in tsr
-  0.6.0</h2>\r\n\r\nThe main feature in this release is a better integration with
-  infrastructure providers. tsuru is now able to provision Docker hosts on CloudStack
-  and EC2, which mean that users can start a new cluster just by installing the server
-  package and running some <code>tsuru-admin</code> commands to add new nodes to the
-  cluster."
-wordpress_id: 130
-wordpress_url: http://blog.tsuru.io/?p=130
+  url: https://github.com/fsouza
 redirect_from:
   - /2014/08/06/a-new-release-of-tsuru-server-is-out/
 date: '2014-08-06 17:06:37 -0300'

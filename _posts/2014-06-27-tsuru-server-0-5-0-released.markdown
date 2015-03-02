@@ -4,15 +4,8 @@ status: publish
 published: true
 title: tsuru server 0.5.0 released!
 author:
-  display_name: andrews medina
-  login: andrewsmedina
-  email: andrewsmedina@gmail.com
-  url: http://andrewsmedina.com
-author_login: andrewsmedina
-author_email: andrewsmedina@gmail.com
-author_url: http://andrewsmedina.com
-wordpress_id: 116
-wordpress_url: http://blog.tsuru.io/?p=116
+  display_name: Andrews Medina
+  url: https://github.com/andrewsmedina
 redirect_from:
   - /2014/06/27/tsuru-server-0-5-0-released/
 date: '2014-06-27 18:13:11 -0300'
