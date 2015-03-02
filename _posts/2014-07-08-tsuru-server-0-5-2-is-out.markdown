@@ -29,4 +29,4 @@ comments: []
 <li>fix race condition on <code>unit-remove</code> that prevented it from removing more than one unit at once</li>
 <li>properly report errors when removing a Docker node that does not exist in the cluster</li>
 </ul>
-<p>It also includes some minor improvements, for more details, take a look at the <a href="http://docs.tsuru.io/en/0.5.2/releases/tsr/0.5.2.html" title="tsuru server 0.5.2 release notes">release notes for tsuru 0.5.2</a>.</p>
+<p>It also includes some minor improvements, for more details, take a look at the <a href="http://docs.tsuru.io/en/stable/releases/tsr/0.5.2.html" title="tsuru server 0.5.2 release notes">release notes for tsuru 0.5.2</a>.</p>
