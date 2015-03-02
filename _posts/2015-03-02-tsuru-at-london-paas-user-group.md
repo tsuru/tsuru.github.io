@@ -20,10 +20,13 @@ tags:
 comments: []
 ---
 
-tsuru was at London PaaS User group. Thanks to the audience for the great interest, thanks to LoPUG for the organisation (and the beers).
+On Feb 26th tsuru was invited at London PaaS User group.
+
+Thanks to the audience for the great interest, thanks to LoPUG for the organisation (and the beers).
 
 ![tsuru at LoPUG](/images/lopug.jpg)
 Colin Saliceti presenting tsuru at LoPUG in the OpenCredo offices
 
 [Slides](http://www.slideshare.net/saliceti/tsuru-london-paas-user-group)
+
 [LoPUG](http://www.meetup.com/London-PaaS-User-Group-LOPUG/)
