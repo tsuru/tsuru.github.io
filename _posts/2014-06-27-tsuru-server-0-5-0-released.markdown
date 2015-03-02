@@ -56,7 +56,7 @@ comments:
 <h3>Buildpack</h3>
 <p>tsuru now supports deploying applications using <a href="https://devcenter.heroku.com/articles/buildpacks">Heroku Buildpacks</a>.</p>
 <p>Buildpacks are useful if you’re interested in following Heroku’s best practices for building applications or if you are deploying an application that already runs on Heroku.</p>
-<p>tsuru uses <a href="https://github.com/progrium/buildstep">Buildstep Docker</a> image to deploy applications using buildpacks. For more information, take a look at the buildpacks documentation page: <a href="http://docs.tsuru.io/en/latest/using/buildpacks.html">http://docs.tsuru.io/en/latest/using/buildpacks.html</a>.</p>
+<p>tsuru uses <a href="https://github.com/progrium/buildstep">Buildstep Docker</a> image to deploy applications using buildpacks. For more information, take a look at the buildpacks documentation page: <a href="http://docs.tsuru.io/en/stable/using/buildpacks.html">http://docs.tsuru.io/en/stable/using/buildpacks.html</a>.</p>
 <h3><a href="https://github.com/tsuru/tsuru/blob/master/docs/releases/tsr/0.5.0.rst#other-features" name="user-content-other-features"></a>Other features</h3>
 <ul>
 <li>filter application logs by unit (<a href="https://github.com/tsuru/tsuru/issues/375">#375</a>)</li>
@@ -109,6 +109,6 @@ db.temp_scheduler_collection.renameCollection("docker_scheduler", true);</pre>
 <div id="docker">
 <div id="backwards-incompatible-changes">
 <h2> Installing and updating</h2>
-<p>You can install tsr and tsuru client from our <a href="http://docs.tsuru.io/en/latest/install/client.html#using-the-ppa-ubuntu-only">ppa deb packages</a> or using <a href="http://docs.tsuru.io/en/latest/install/client.html#using-homebrew-mac-os-x-only">homebrew</a> (clients only).</p>
+<p>You can install tsr and tsuru client from our <a href="http://docs.tsuru.io/en/stable/install/client.html#using-the-ppa-ubuntu-only">ppa deb packages</a> or using <a href="http://docs.tsuru.io/en/stable/install/client.html#using-homebrew-mac-os-x-only">homebrew</a> (clients only).</p>
 </div>
 </div>

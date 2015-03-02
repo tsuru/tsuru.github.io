@@ -49,15 +49,15 @@ redis-queue:
   password: "your-password"</pre>
 </div>
 </div>
-<p>All settings are optional (<tt>queue</tt> will still be default to “beanstalkd”), refer to <a href="http://docs.tsuru.io/en/latest/config.html">configuration docs</a> for more details.</p>
+<p>All settings are optional (<tt>queue</tt> will still be default to “beanstalkd”), refer to <a href="http://docs.tsuru.io/en/stable/config.html">configuration docs</a> for more details.</p>
 <div id="docker">
 <h4>Docker</h4>
 <ul>
 <li>Refactored unit creation to be more atomic</li>
 <li>Support for unit-agent (<a href="https://github.com/tsuru/tsuru/issues/633">#633</a>) - tsuru unit agent repository: <a href="https://github.com/tsuru/tsuru-unit-agent">https://github.com/tsuru/tsuru-unit-agent</a></li>
-<li>Added an administrative command to move and rebalance containers between nodes (<a href="https://github.com/tsuru/tsuru/issues/646">#646</a>) - docs about rebalance: <a href="http://docs.tsuru.io/en/latest/apps/tsuru-admin/usage.html#containers-rebalance">http://docs.tsuru.io/en/latest/apps/tsuru-admin/usage.html#containers-rebalance</a></li>
+<li>Added an administrative command to move and rebalance containers between nodes (<a href="https://github.com/tsuru/tsuru/issues/646">#646</a>) - docs about rebalance: <a href="http://docs.tsuru.io/en/stable/apps/tsuru-admin/usage.html#containers-rebalance">http://docs.tsuru.io/en/stable/apps/tsuru-admin/usage.html#containers-rebalance</a></li>
 <li>ram  and swap memory limit is configurable (<a href="https://github.com/tsuru/tsuru/issues/764">#764</a> and <a href="https://github.com/tsuru/tsuru/issues/434">#434</a>)</li>
-<li>Added a command to add a new platform (<a href="https://github.com/tsuru/tsuru/issues/780">#780</a>) - docs about <cite>platform-add</cite> command: <a href="http://docs.tsuru.io/en/latest/apps/tsuru-admin/usage.html#platform-add">http://docs.tsuru.io/en/latest/apps/tsuru-admin/usage.html#platform-add</a></li>
+<li>Added a command to add a new platform (<a href="https://github.com/tsuru/tsuru/issues/780">#780</a>) - docs about <cite>platform-add</cite> command: <a href="http://docs.tsuru.io/en/stable/apps/tsuru-admin/usage.html#platform-add">http://docs.tsuru.io/en/stable/apps/tsuru-admin/usage.html#platform-add</a></li>
 <li>Do not restart on unit-add (nor unit-remove)</li>
 <li>Improved debug logs for SSH - <a href="https://github.com/tsuru/tsuru/issues/665">#665</a></li>
 <li>Fixed URL for listing containers by app</li>
@@ -98,7 +98,7 @@ redis-queue:
 <li>Fixed output when service doesn’t export environment variables (<a href="https://github.com/tsuru/tsuru/issues/772">#772</a>)</li>
 <li>Swap address and cname on apps when running swap</li>
 <li>App owner team is configurable - <a href="https://github.com/tsuru/tsuru/issues/620">#620</a></li>
-<li>New plugin system - <a href="https://github.com/tsuru/tsuru/issues/620">#737</a> - Now it is possible customize tsuru client, installing and creating plugins. <a href="http://docs.tsuru.io/en/latest/using/cli/plugins.html">See the docs for more info</a></li>
+<li>New plugin system - <a href="https://github.com/tsuru/tsuru/issues/620">#737</a> - Now it is possible customize tsuru client, installing and creating plugins. <a href="http://docs.tsuru.io/en/stable/using/cli/plugins.html">See the docs for more info</a></li>
 </ul>
 <div id="backwards-incompatible-changes">
 <h2>Backwards incompatible changes</h2>
@@ -115,6 +115,6 @@ redis-queue:
 </div>
 </div>
 <h2> Installing and updating</h2>
-<p>You can install tsr and tsuru client from our <a href="http://docs.tsuru.io/en/latest/install/client.html#using-the-ppa-ubuntu-only">ppa deb packages</a> or using <a href="http://docs.tsuru.io/en/latest/install/client.html#using-homebrew-mac-os-x-only">homebrew</a> (clients only).</p>
+<p>You can install tsr and tsuru client from our <a href="http://docs.tsuru.io/en/stable/install/client.html#using-the-ppa-ubuntu-only">ppa deb packages</a> or using <a href="http://docs.tsuru.io/en/stable/install/client.html#using-homebrew-mac-os-x-only">homebrew</a> (clients only).</p>
 </div>
 </div>

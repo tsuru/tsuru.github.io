@@ -52,7 +52,7 @@ comments:
 <p>The audience will have the opportunity to better know what's behind tsuru, for example:<a id="more"></a><a id="more-57"></a></p>
 <ol>
 <li>how we use the <a href="http://golang.org" title="Go">Go</a> programming language to build tsuru</li>
-<li>how to provide and use <a href="http://docs.tsuru.io/en/latest/apps/client/services.html">services</a> in tsuru applications</li>
+<li>how to provide and use <a href="http://docs.tsuru.io/en/stable/apps/client/services.html">services</a> in tsuru applications</li>
 <li>how the architecture looks like</li>
 <li>how the production environment looks like with <a href="http://juju.ubuntu.com" title="Juju">Juju</a> and <a href="http://docker.io" title="Docker">Docker</a></li>
 <li>how to run tsuru in your own infrastructure</li>

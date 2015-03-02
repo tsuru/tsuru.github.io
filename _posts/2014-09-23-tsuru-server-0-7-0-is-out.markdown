@@ -52,13 +52,13 @@ comments:
         It’s now possible for an app to have multiple cnames. The <strong>tsuru set-cname</strong> and <strong>tsuru unset-cname</strong> have been removed and <strong>tsuru add-cname</strong> and <strong>tsuru remove-cname</strong> were added.
     </li>
 <li>
-        tsuru is now able to heal failing nodes and containers automatically, this is disabled by default. Instructions can be found in the <a href="http://docs.tsuru.io/en/latest/reference/config.html#config-healing">config reference</a>.
+        tsuru is now able to heal failing nodes and containers automatically, this is disabled by default. Instructions can be found in the <a href="http://docs.tsuru.io/en/stable/reference/config.html#config-healing">config reference</a>.
     </li>
 <li>
-        It’s possible to configure a health check request path to be called during the deployment process of an application. See <a href="http://docs.tsuru.io/en/latest/using/tsuru.yaml.html#yaml-healthcheck">health check docs</a> for more details.
+        It’s possible to configure a health check request path to be called during the deployment process of an application. See <a href="http://docs.tsuru.io/en/stable/using/tsuru.yaml.html#yaml-healthcheck">health check docs</a> for more details.
     </li>
 </ul>
-<p>You can <strong>see other cool features</strong> in <a href="http://docs.tsuru.io/en/latest/releases/tsr/0.7.0.html">this release here</a>.</p>
+<p>You can <strong>see other cool features</strong> in <a href="http://docs.tsuru.io/en/stable/releases/tsr/0.7.0.html">this release here</a>.</p>
 <h2>Bonus Feature</h2>
 <p>Now, tsuru has responsive tables!!! \o/</p>
 <p><img src="http://i.imgur.com/dtS3TBA.gif" /></p>
@@ -71,4 +71,4 @@ comments:
 <li>Thinh Nguyen</li>
 </ul>
 <h2>Grab it today!</h2>
-<p>You can install or upgrade tsuru server <a href="http://docs.tsuru.io/en/latest/installing/api.html#adding-repositories">using our PPA</a> or building it from source. The clients are available both on Homebrew and in the PPA, for more details, check the <a href="http://docs.tsuru.io/en/latest/using/install-client.html">client installation docs</a>.</p>
+<p>You can install or upgrade tsuru server <a href="http://docs.tsuru.io/en/stable/installing/api.html#adding-repositories">using our PPA</a> or building it from source. The clients are available both on Homebrew and in the PPA, for more details, check the <a href="http://docs.tsuru.io/en/stable/using/install-client.html">client installation docs</a>.</p>
