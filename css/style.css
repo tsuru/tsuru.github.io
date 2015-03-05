@@ -2577,6 +2577,10 @@ footer.entry-meta {
 	width: 100%;
 }
 
+em, em a {
+	font-style: italic;
+}
+
 #wpstats {
 	display: block;
 	margin: -10px auto 0;
