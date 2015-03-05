@@ -22,9 +22,7 @@ On Feb 26th [tsuru](http://tsuru.io) was invited at London PaaS User group.
 
 ![tsuru at LoPUG](/images/lopug.jpg)
 Colin Saliceti presenting tsuru at LoPUG in the OpenCredo offices
-<br>
-<br>
-<br>
+
 [Tsuru, the enterprise-grade PaaS with Brazilian roots](http://www.slideshare.net/saliceti/tsuru-london-paas-user-group)
 
 >Tsuru was born and is actively developed at globo.com, the web arm of Globo, the Brazilian media giant. It is now gaining traction across the world and already has many international contributors.
