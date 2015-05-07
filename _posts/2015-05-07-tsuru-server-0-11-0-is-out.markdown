@@ -6,8 +6,8 @@ title: tsuru server 0.11.0 is out!
 author:
   display_name: Francisco Souza
   url: https://github.com/fsouza
-date: '2015-05-07 16:00:00 -0300'
-date_gmt: '2015-05-07 13:00:00'
+date: '2015-05-07 17:32:00 -0300'
+date_gmt: '2015-05-07 14:32:00'
 categories:
 - Release
 tags:
