@@ -22,7 +22,9 @@ This release includes some awesome features and fixes. Please refer to the [rele
 Some features worth highlighting are listed below:
 
 * Pool management overhaul. Now pools are a concept independent on the Docker provisioner. Users can now have multiple pools associated with each team. If that’s the case, when creating a new application, users will be able to choose which pool they want to use to deploy it;
-* Node auto scaling. It’s now possible to enable automatic scaling of Docker nodes, this will add or remove nodes according to rules specified in your tsuru.conf file. There's a dedicated page in our documentation for [node autoscaling](http://docs.tsuru.io/en/stable/advanced_topics/node_scaling.html). Check the short [demonstration video below](#node-auto-scale-demonstration).
+* Node auto scaling. It’s now possible to enable automatic scaling of Docker nodes, this will add or remove nodes according to rules specified in your tsuru.conf file. There's a dedicated page in our documentation for [node autoscaling](http://docs.tsuru.io/en/stable/advanced_topics/node_scaling.html). Check the short demonstration video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l6FOOnxLLiQ" frameborder="0" allowfullscreen></iframe>
 
 Backward incompatible changes
 =============================
@@ -30,11 +32,6 @@ Backward incompatible changes
 * There are two migrations that must run before deploying applications with tsr 0.11.0, they concern pools and can be run with tsr migrate. The way pools are handled has changed. Now it’s possible for a team to have access to more than one pool, if that’s the case the pool name will have to be specified during application creation;
 * Queue configuration is necessary for creating and removing machines using a IaaS provider. This can be simply done by indicating a MongoDB database configuration that will be used by tsuru for managing the queue. No external process is necessary. See [configuration reference](http://docs.tsuru.io/en/stable/reference/config.html#config-queue) for more details;
 * Previously it was possible for more than one machine have the same address this could cause a number of inconsistencies when trying to remove said machine using ``tsuru docker-node-remove --destroy``. To solve this problem tsuru will now raise an error if the IaaS provider return the same address of an already registered machine.
-
-Node auto scale demonstration
-=============================
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l6FOOnxLLiQ" frameborder="0" allowfullscreen></iframe>
 
 Contributors
 ============
