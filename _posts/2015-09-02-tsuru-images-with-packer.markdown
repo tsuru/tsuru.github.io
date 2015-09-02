@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-published: false
+published: true 
 title: Using Packer to speed-up your first experience with tsuru
 author:
   display_name: Tarsis Azevedo
