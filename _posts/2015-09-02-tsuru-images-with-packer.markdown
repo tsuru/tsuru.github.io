@@ -7,7 +7,7 @@ author:
   display_name: Tarsis Azevedo
   url: https://github.com/tarsisazevedo
 date: '2015-09-02 18:30:00 -0300'
-date_gmt: '2015-09-02 18:30:00'
+date_gmt: '2015-09-02 21:30:00'
 categories:
 - Images
 tags:
@@ -35,7 +35,7 @@ configured to use the pre-receive hook on top of
 
 Amazon AMIs are available in **us-east-1 region** and you can find it in
 "Community AMIs" tab when launching a new instance. It's also possible to get the 
-latest AMIs programtically by downloading two files from S3:
+latest AMIs programmatically by downloading two files from S3:
 
 > $ curl https://s3.amazonaws.com/tsuru-images/nightly-ami-id
 > ami-1350d678
