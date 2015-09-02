@@ -28,10 +28,11 @@ default and pre-receive deploy method using archive server.
 
 Amazon amis are builded in **us-east-1 region** and you can find it in
 community amis as tsuru-stable or tsuru-nightly,
+or get the latest ami id for [stable](https://s3.amazonaws.com/tsuru-images/nightly-ami-id) and [nightly](https://s3.amazonaws.com/tsuru-images/nightly-ami-id)
 We have virtualbox vagrant box images to [stable](https://s3.amazonaws.com/tsuru-images/tsuru-stable-virtualbox.box) and [nightly box](https://s3.amazonaws.com/tsuru-images/tsuru-nightly-virtualbox.box) build too.
 
 If you want to build these images by yourself, you can get our [conf files here](https://github.com/tsuru/tsuru-packer).
-After checking out the repository you have to run: 
+After checking out the repository you have to run:
 
 > $ make setup
 
