@@ -35,8 +35,8 @@ There are Vagrant boxes for the VirtualBox provider as well. They come in the sa
 
 The URLs for boxes are listed bellow:
 
-* stable: https://s3.amazonaws.com/tsuru-images/tsuru-stable-virtualbox.box
-* nightly: https://s3.amazonaws.com/tsuru-images/tsuru-nightly-virtualbox.box
+* stable: [https://s3.amazonaws.com/tsuru-images/tsuru-stable-virtualbox.box](https://s3.amazonaws.com/tsuru-images/tsuru-stable-virtualbox.box)
+* nightly: [https://s3.amazonaws.com/tsuru-images/tsuru-nightly-virtualbox.box](https://s3.amazonaws.com/tsuru-images/tsuru-nightly-virtualbox.box)
 
 Users may write the URL directly in the Vagrantfile, or use it in the ``vagrant init``:
 
@@ -53,4 +53,4 @@ If you want to build these images yourself, you can get our [conf files here](ht
 
     $ AWS_ACCESS_KEY=<your-access-key> AWS_SECRET_KEY=<your-secret-key> packer build tsuru-{nightly,stable}.json
 
-If you want to talk more about this project or any other [tsuru-related project](https://github.com/tsuru) feel free to reach us by openning an issue in [our Github repository](https://github.com/tsuru/tsuru/issues), directly chatting in our [Gitter room](gitter.im/tsuru/tsuru) or posting a message to the [tsuru-users group](https://groups.google.com/forum/#!forum/tsuru-users).
+If you want to talk more about this project or any other [tsuru-related project](https://github.com/tsuru) feel free to reach us by openning an issue in [our Github repository](https://github.com/tsuru/tsuru/issues), directly chatting in our [Gitter room](https://gitter.im/tsuru/tsuru) or posting a message to the [tsuru-users group](https://groups.google.com/forum/#!forum/tsuru-users).
