@@ -37,11 +37,11 @@ Amazon AMIs are available in **us-east-1 region** and you can find it in
 "Community AMIs" tab when launching a new instance. It's also possible to get the 
 latest AMIs programmatically by downloading two files from S3:
 
-> $ curl https://s3.amazonaws.com/tsuru-images/nightly-ami-id
-> ami-1350d678
+    $ curl https://s3.amazonaws.com/tsuru-images/nightly-ami-id
+    ami-1350d678
 
-> $ curl https://s3.amazonaws.com/tsuru-images/stable-ami-id
-> ami-a98527c2
+    $ curl https://s3.amazonaws.com/tsuru-images/stable-ami-id
+    ami-a98527c2
 
 There are Vagrant boxes for the VirtualBox provider as well. They come in the
 same two flavors as the ones provided in EC2: stable and nightly.
@@ -53,9 +53,9 @@ The URLs for boxes are listed bellow:
 
 Users may write the URL directly in the Vagrantfile, or use it in the ``vagrant init``:
 
-> $ vagrant init tsuru-stable https://s3.amazonaws.com/tsuru-images/tsuru-stable-virtualbox.box
+    $ vagrant init tsuru-stable https://s3.amazonaws.com/tsuru-images/tsuru-stable-virtualbox.box
 
-> $ vagrant init tsuru-nightly https://s3.amazonaws.com/tsuru-images/tsuru-nightly-virtualbox.box
+    $ vagrant init tsuru-nightly https://s3.amazonaws.com/tsuru-images/tsuru-nightly-virtualbox.box
 
 
 ## building the images
@@ -63,9 +63,9 @@ Users may write the URL directly in the Vagrantfile, or use it in the ``vagrant 
 If you want to build these images yourself, you can get our [conf files here](https://github.com/tsuru/tsuru-packer).
 After checking out the repository you have to run:
 
-> $ make setup
+    $ make setup
 
-> $ AWS_ACCESS_KEY=<your-access-key> AWS_SECRET_KEY=<your-secret-key> packer build tsuru-{nightly,stable}.json
+    $ AWS_ACCESS_KEY=<your-access-key> AWS_SECRET_KEY=<your-secret-key> packer build tsuru-{nightly,stable}.json
 
 If you want to talk more about this project or any other [tsuru-related project](https://github.com/tsuru) feel free to reach us
 by openning an issue in [our Github repository](https://github.com/tsuru/tsuru/issues), directly chatting in our [Gitter room](gitter.im/tsuru/tsuru) or
