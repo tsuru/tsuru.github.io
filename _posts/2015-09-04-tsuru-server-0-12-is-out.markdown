@@ -50,7 +50,7 @@ As you have might noticed, we released tsurud 0.12.0 on August 27th, then releas
 
 We already have a flow for constant testing on nightly packages, ensuring that everything works, but this testing doesn't reach a good scale yet. As we work to improve this flow, we're also committing to provide more stable releases, by defining a clearer release cycle:
 
-Whenever we reach the stable stage of development, we're going to provide a release candidate (rc) package, and run the rc version on our production environment. If we caught any bad behavior, we fix it and issue another rc version. After some days of running the rc release, as soon as we feel comfortable about it (one week later, possible), a new release will be tagged and safely advised as stable by the tsuru core team.
+Whenever we reach the stable stage of development, we're going to provide a release candidate (rc) package, and run the rc version on our production environment. If we caught any bad behavior, we fix it and issue another rc version. After some days of running the rc release, as soon as we feel comfortable about it (one week later, possibly), a new release will be tagged and safely advised as stable by the tsuru core team.
 
 Contributors
 ============
