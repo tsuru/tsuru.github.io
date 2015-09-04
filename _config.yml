@@ -13,3 +13,4 @@ gems:
   - jekyll-redirect-from
 kramdown:
   input: GFM
+  hard_wrap: false
