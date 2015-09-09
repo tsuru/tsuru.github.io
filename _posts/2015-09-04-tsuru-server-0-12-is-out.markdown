@@ -18,8 +18,11 @@ comments: []
 tsuru server 0.12.2, along with [tsuru client 0.17.1](https://github.com/tsuru/tsuru-client/releases/tag/0.17.1) and [tsuru-admin 0.11.0](https://github.com/tsuru/tsuru-admin/releases/tag/0.11.0), has been released this week!
 
 This release includes some awesome features and fixes. Please refer to the
-[release notes](http://docs.tsuru.io/en/stable/releases/tsurud/0.12.2.html)
-for the full list of features.
+[release notes](http://docs.tsuru.io/en/stable/releases/tsurud/0.12.0.html) for
+the full list of features (the notes for
+[0.12.1](http://docs.tsuru.io/en/stable/releases/tsurud/0.12.1.html) and
+[0.12.2](http://docs.tsuru.io/en/stable/releases/tsurud/0.12.2.html) include
+some bug fixes).
 
 Some features worth highlighting are listed below:
 
