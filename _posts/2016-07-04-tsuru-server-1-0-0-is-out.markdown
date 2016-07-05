@@ -65,6 +65,7 @@ And we want to thank them for helping getting tsuru server 1.0.0 out. Here is
 the list of contributors that helped in this version:
 
 - Diego Araujo and USP
+- Guilherme Garnier
 - James Pic
 - Paulo Alem
 - Pedro Medeiros
