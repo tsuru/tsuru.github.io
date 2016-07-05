@@ -6,8 +6,8 @@ title: tsuru server 1.0.0 is out!
 author:
   display_name: Andrews Medina
   url: https://github.com/andrewsmedina
-date: '2016-07-04 16:08:00 -0300'
-date_gmt: '2016-07-04 19:08:00'
+date: '2016-07-05 11:35:00 -0300'
+date_gmt: '2016-07-05 14:35:00'
 categories:
 - Release
 tags:
