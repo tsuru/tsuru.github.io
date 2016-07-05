@@ -21,12 +21,12 @@ This release includes some awesome features and fixes. Please refer to the [rele
 
 Some features worth highlighting are listed below:
 
-* Deploy applications using Docker image
-([#1314](https://github.com/tsuru/tsuru/issues/1314)). Now it’s possible to deploy
-a Docker image as tsuru app using tsuru app-deploy -i command. This image should
-be in a registry and be accessible by tsuru api. Image should also have a
-`Entrypoint` or a `Procfile` at given paths, `/` or `/app/user/` or
-`/home/application/current`. See more in [tsuru-client app-deploy reference](https://tsuru-client.readthedocs.io/en/latest/reference.html#deploy).
+* Deploy applications using Docker images
+([#1314](https://github.com/tsuru/tsuru/issues/1314)). Now it's possible to
+deploy a Docker image to tsuru using the command `tsuru app-deploy -i`.
+This image should be in a registry and be accessible by tsuru api.
+Image should also have a `Entrypoint` or a `Procfile` at given paths, `/` or
+`/app/user/` or `/home/application/current`. See more in [tsuru-client app-deploy reference](https://tsuru-client.readthedocs.io/en/latest/reference.html#deploy).
 
 * Improved application log handling. Besides several performance improvements in
 log handling, it’s now possible to configure tsuru to forward containers logs
@@ -42,8 +42,8 @@ accordingly.
 $ tsuru-admin docker-node-add iaas=ec2 'iaminstanceprofile={"name":"docker-instances"}' 'blockdevicemappings=[[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":100}}]' subnetid=subnet-1234 network-index=0 ...
 ```
 
-* New SAML V2 authentication scheme. See SAML authentication configuration for
-instructions on how to configure it.
+* New SAML V2 authentication scheme. See [SAML authentication configuration](https://docs.tsuru.io/master/reference/config.html#saml-configuration)
+for instructions on how to configure it.
 
 Backward incompatible changes (action needed)
 =============================================
