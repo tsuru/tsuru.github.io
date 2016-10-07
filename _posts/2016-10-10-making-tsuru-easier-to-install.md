@@ -42,7 +42,7 @@ Apps hosts are docker hosts registered as docker nodes on tsuru. These are respo
 The Future
 ----------
 
-It`s importation to mention that this feature is currently experimental and is not ready for production use.
+It's importation to mention that this feature is currently experimental and is not ready for production use.
 
 Our main goal is to make it easy to install a **production ready** tsuru. There are many challenges ahead but we think we are on the right way to do it. We have a [list of issues](https://github.com/tsuru/tsuru/issues?q=is%3Aissue+is%3Aopen+label%3Ainstaller) to address before recommending it for production use, these include making it possible to scale each component, making it possible to manage your installation (adding/removing nodes, updating the components etc) and leverage more of the services each IaaS provides (like load balancers, for example).
 
