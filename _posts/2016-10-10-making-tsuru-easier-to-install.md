@@ -17,7 +17,7 @@ tags:
 comments: []
 ---
 
-tsuru client 1.1 comes with a experimental feature called **tsuru installer**. With tsuru installer
+tsuru client 1.1.1 comes with a experimental feature called **tsuru installer**. With tsuru installer
 it is easy to start a new tsuru installation, including a multi-node installation. It's an great
 way to try tsuru out, both on a local machine or in a multi-node installation on the cloud.
 
